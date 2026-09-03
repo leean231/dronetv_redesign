@@ -7,7 +7,7 @@ A modern, responsive redesign concept and frontend build for **DroneTV.in**, dev
 ## 🔗 Quick Links
 
 * **Figma Design & Prototype:** [View Design on Figma](https://www.figma.com/make/L1CCkt3av6OffL7odHcLr5/Design-Website-Screens?fullscreen=1&t=UoEIWtheszwZtCBE-1&code-node-id=0-6)
-* **Live Demo / Preview:** *(Insert link if deployed on Vercel/Netlify)*
+* **Live Demo / Preview:** *([YouTube](https://youtu.be/Tw6VnYahT_s?si=k21rP_aITq9JDOZ6))*
 
 ---
 
