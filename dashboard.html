@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DroneTV - Pilot Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .dashboard-layout { display: grid; grid-template-columns: 240px 1fr; min-height: calc(100vh - 80px); }
+    .sidebar { background: var(--bg-surface); border-right: 1px solid var(--border-color); padding: 2rem 1rem; }
+    .sidebar-menu { list-style: none; }
+    .sidebar-menu li a { display: block; padding: 0.8rem 1rem; color: var(--text-muted); text-decoration: none; font-weight: 600; font-size: 0.875rem; }
+    .sidebar-menu li a.active, .sidebar-menu li a:hover { color: var(--cyan-primary); background: var(--bg-card); }
+    .main-dash { padding: 2.5rem; }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="brand-logo">DRONETV<span>.IN</span></a>
+      <span style="color: var(--cyan-primary); font-size: 0.875rem; font-weight: 700;">PILOT PORTAL</span>
+    </div>
+  </header>
+
+  <div class="dashboard-layout">
+    <aside class="sidebar">
+      <ul class="sidebar-menu">
+        <li><a href="#" class="active">OVERVIEW</a></li>
+        <li><a href="#">MY COURSES</a></li>
+        <li><a href="#">FLIGHT LOGS</a></li>
+        <li><a href="#">CERTIFICATES</a></li>
+        <li><a href="index.html">LOGOUT</a></li>
+      </ul>
+    </aside>
+
+    <main class="main-dash">
+      <h2>PILOT TELEMETRY & OVERVIEW</h2>
+      <div class="stats-grid" style="padding: 2rem 0;">
+        <div class="stat-item">
+          <h2>14.2 hrs</h2>
+          <p class="stat-title">Flight Hours Logged</p>
+        </div>
+        <div class="stat-item">
+          <h2>2</h2>
+          <p class="stat-title">Active Certifications</p>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

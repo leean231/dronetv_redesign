@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DroneTV - Pilot Portal Access</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .auth-container { max-width: 450px; margin: 4rem auto; background: var(--bg-card); padding: 2.5rem; border: 1px solid var(--border-color); }
+    .form-group { margin-bottom: 1.5rem; }
+    .form-group label { display: block; font-size: 0.75rem; color: var(--text-muted); margin-bottom: 0.5rem; letter-spacing: 1px; }
+    .form-group input { width: 100%; padding: 0.8rem; background: var(--bg-surface); border: 1px solid var(--border-color); color: #fff; font-family: inherit; }
+    .form-group input:focus { border-color: var(--cyan-primary); outline: none; }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="brand-logo">DRONETV<span>.IN</span></a>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="auth-container">
+      <span class="badge" id="authBadge">WELCOME BACK</span>
+      <h2 id="authTitle" style="margin-bottom: 1.5rem;">ACCESS DASHBOARD</h2>
+      
+      <form id="authForm">
+        <div class="form-group" id="nameGroup" style="display: none;">
+          <label>FULL NAME</label>
+          <input type="text" id="fullNameInput" placeholder="Arjun Sharma">
+        </div>
+        <div class="form-group">
+          <label>EMAIL ADDRESS</label>
+          <input type="email" id="emailInput" placeholder="pilot@dronetv.in" required>
+        </div>
+        <div class="form-group">
+          <label>PASSWORD</label>
+          <input type="password" id="passwordInput" placeholder="••••••••" required>
+        </div>
+        <button type="submit" class="btn-cyan" style="width: 100%; cursor: pointer;" id="submitBtn">LOG IN &rarr;</button>
+      </form>
+
+      <p style="text-align: center; margin-top: 1.5rem; font-size: 0.875rem; color: var(--text-muted);">
+        <span id="toggleText">Don't have an account?</span> 
+        <a href="#" id="toggleAuthMode" style="color: var(--cyan-primary); text-decoration: none;">Create Free Account</a>
+      </p>
+    </div>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
