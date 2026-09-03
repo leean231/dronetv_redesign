@@ -50,7 +50,3 @@ To achieve a high-quality, production-ready output within the strict **3-day tim
 * **Code Structuring:** Synthetic code intelligence assisted in generating semantic layout scaffolding, responsive media query breakpoints, and modular state management logic.
 
 ---
-
-## 🚀 How to Run the Project
-
-1. **Clone the Repository:**
